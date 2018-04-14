@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Study Guide
-email: 
-description: 
+title: Study Rooms at Townsville University Library
+email: studyrooms@example.com
+description:  Welcome to the Townsville University Study Rooms microsite! Search for and reserve a study room, find a study group, sign up for tutoring, and more!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
