@@ -1,21 +1,104 @@
 
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <title>Study Rooms Townsville University Library Group A LIS 786 Assignment 14</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+  <style>
+  .navbar {
+    font-family: 'Didact Gothic';font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    border: 0;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    }
+  .navbar-brand {
+  font-family: 'Didact Gothic';font-size: 24px;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  }
+  .nav-link a {
+      color: #fff;
+  }
+  .nav-link a:hover {
+      color: #777;
+      text-decoration: none;
+  } 
+footer {
+    font-family: 'Didact Gothic';font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    border: 0;    
+    background-color: #0CB3C0;
+    color: #fff;
+    padding: 15px 20px;
+  }
+  footer a {
+      color: #fff;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  } 
+  .footernav {
+   font-size: 20px;
+   text-align: left;
+} 
+  .address {
+  text-align: right;
+}
+</style>
+  </head>
+ <header>
+   <nav class="navbar navbar-expand-md navbar-dark" fixed-top style="background-color: #0CB3C0;">
+  <a class="navbar-brand" href="#">Townsville University</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  {%- include head.html -%}
-
-  <body>
-
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Study Areas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Reservations</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Live Feeds</a>
+      </li>
+    </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
       </div>
-    </main>
-
-    {%- include footer.html -%}
-
-  </body>
-
+    </nav>
+     </header>
+     <section class="content">
+      {{ content }}
+    </section>
+      <footer class="footer">
+      <nav class="footernav">
+        <a href="#">FAQs</a> |
+        <a href="#">Ask a Librarian</a> |
+        <a href="#">Library Home</a> |
+  </nav>
+<p class="address">&copy; Townsville University Library 2018 <br />
+1234 Main Street <br />
+        Townsville, IL 01010 <br />
+        (773) 555-1234 <br />
+        library@townsville.edu </p>
+</footer>
+</body>
 </html>
