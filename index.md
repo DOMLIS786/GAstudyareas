@@ -5,13 +5,13 @@ layout: base
  <div class="content">
       <div class="home">
  <section>
-    <img src= "images/study-areas_hero.jpg" alt="Study Rooms at Townsville University Library" style="width:100%">
+    <img src= "https://today.uic.edu/files/2016/06/UIC_2015-3683-1-590x393.jpg" alt="Study Rooms at Townsville University Library" style="width:100%">
     </section>
       <div class="jumbotron">
         <div class="container">
           <h1 class="display-3">Need a study spot?</h1>
           <p>Whether you're looking for a quiet space for one or a collaboration table for your group, we have you covered!</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Book a Room &raquo;</a></p>
+          <p><a class="btn btn-primary btn-lg" href="/reservations.html" role="button">Make a Reservation &raquo;</a></p>
         </div>
       </div>
       
@@ -22,9 +22,9 @@ layout: base
   <div class="col-md-4">
     <div class="thumbnail">
       <a href="#">
-        <img src="images/computer-lab.jpg" alt="Computer Lab" style="width:100%">
+        <img src="https://api.hub.jhu.edu/factory/sites/default/files/styles/landscape/public/blc-magazine.jpg?itok=oVygQsBt" alt="Roberts" style="width:100%">
         <div class="caption">
-          <p>Computer Lab</p>
+          <p>Roberts</p>
         </div>
       </a>
     </div>
@@ -32,9 +32,9 @@ layout: base
   <div class="col-md-4">
     <div class="thumbnail">
       <a href="#">
-        <img src="images/students1.jpg" alt="Study Lounge" style="width:100%">
+        <img src="https://yalealumnimagazine.com/uploads/images/8300083/1502920698/IMG_0532.jpg" alt="Study Lounge" style="width:100%">
         <div class="caption">
-          <p>Study Lounge</p>
+          <p>Severance Study Hall</p>
         </div>
       </a>
     </div>
@@ -42,9 +42,9 @@ layout: base
   <div class="col-md-4">
     <div class="thumbnail">
       <a href="#">
-        <img src="images/collab-table.jpg" alt="Collaboration Room" style="width:100%">
+        <img src="https://greennewz.files.wordpress.com/2014/10/inside-the-central-library-courtesy-of-mimoa.jpg?w=1024" alt="Commons" style="width:100%">
         <div class="caption">
-          <p>Collaboration Room</p>
+          <p>The Commons</p>
         </div>
       </a>
     </div>
@@ -52,9 +52,9 @@ layout: base
    <div class="col-md-4">
    <div class="thumbnail">
       <a href="#">
-        <img src="images/computer-lab.jpg" alt="Computer Lab" style="width:100%">
+        <img src="https://static1.squarespace.com/static/5978cca03e00be7250d83dfd/t/59b31f8b197aea58a8f858f6/1504911270866/_MG_0055.jpg" alt="Turner Cafe" style="width:100%">
         <div class="caption">
-          <p>Computer Lab</p>
+          <p>Turner Cafe</p>
         </div>
       </a>
     </div>
@@ -62,9 +62,9 @@ layout: base
   <div class="col-md-4">
     <div class="thumbnail">
       <a href="#">
-        <img src="images/students1.jpg" alt="Study Lounge" style="width:100%">
+        <img src="http://lh3.ggpht.com/-_Gv_jEXZGTc/UmemXtKlZ5I/AAAAAAAAY88/DIYfxwPNv28/10_thumb%25255B3%25255D.jpg?imgmax=800" alt="Study Lounge" style="width:100%">
         <div class="caption">
-          <p>Study Lounge</p>
+          <p>The Russell House</p>
         </div>
       </a>
     </div>
@@ -72,9 +72,9 @@ layout: base
   <div class="col-md-4">
     <div class="thumbnail">
       <a href="#">
-        <img src="images/collab-table.jpg" alt="Collaboration Room" style="width:100%">
+        <img src="https://crimsonquintessence.files.wordpress.com/2015/07/242478693_5256b5a987.jpg?w=1024" alt="The Stacks" style="width:100%">
         <div class="caption">
-          <p>Collaboration Room</p>
+          <p>The Stacks</p>
         </div>
       </a>
     </div>
