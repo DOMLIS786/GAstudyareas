@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {font-family: Arial,sans-serif;
+      background-color: #0CB3C0;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: Tomato;
+}
+
+.container {
+    border-radius: 5px;
+    background-color:  teal;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h4 {
+	text-align: center;
+	
+}
+
+p {
+   text-align: center;
+   text-indent: 50px;
+   font-family: "Times New Roman", Times, serif;
+   font-weight: bold;
+   }
+   
+ 
+</style>
+</head>
+<body>
+
+<h1>Ask The Librarian!</h1>
+
+<article>
+<p>Do you have a question and don't know the answer?</p>
+<p> Please feel free to fill out this form and one of our librarians will respond to your question within 24 hours.</p> 
+<p>For addtional information, please feel free to contact the university's library at (773) 555-1234 or email us at library@townsville.edu</p>
+</article>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname">
+
+<label for="email">Email Address</label>
+    <input type="text" id="email" name="emailaddress">
+
+    <label for="city,state">Your City, State</label>
+    <input type="text" id="city,state" name="city,state">
+
+    <label for="phone">Telephone Number</label>
+    <input type="text" id="phone" name="telephonenumber">
+
+        <label for="reference">Reference Question</label>
+    <select id="reference" name="referencequestion">
+      <option value="libraryservices">Library Services</option>
+      <option value="events">Events</option>
+      <option value="general">Genernal Information</option>
+    </select>
+
+    <label for="message">Message</label>
+    <textarea id="subject" name="subject"style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<footer class="w3-container w3-yellow">
+<section>
+<h4>Copyright Townsville University Library 2018</h4>
+<p>1234 Main Street</p>
+<p>Townsville,IL 01010</p>
+<p>(773) 555-1234</p> 
+<p>library@townsville.edu</p>
+</section>
+</footer>
+
+</body>
+</html>
