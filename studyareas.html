@@ -15,12 +15,20 @@ layout: base
 		<div class="row">
 			<div class="col-sm-3">
                 <article>
-				<h4 class="text-center">Helpful Links</h4>
-                <br>
-                <p class="text-center"><a href="#">Building Hours</a></p>
-                <p class="text-center"><a href="#">School Calendar</a></p>
-                <p class="text-center"><a href="#">Campus Map</a></p>
-                <p class="text-center"><a href="#">Ask a Librarian</a></p>
+                
+<div class="card" style="width: 18rem;">
+  <div class="card-header text-center">
+    Helpful Links
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><a href=#>Builiding Hours</a></li>
+    <li class="list-group-item"><a href=#>School Calendar</a></li>
+      <li class="list-group-item"><a href=#>Campus Map</a></li>
+      <li class="list-group-item"><a href=#>Ask a Librarian</a></li>
+  </ul>
+</div>
+                
+
                 <br>
                 <br>
                 <br>
@@ -32,8 +40,9 @@ layout: base
     <div class="col-sm-12">
             <div class="panel panel-primary">
                 <div class="panel-heading">
-                    <h5 class="text-center">
-                        <span class="glyphicon"></span>Where do you study in groups?</h5>
+                      <div class="card-header text-center">
+    What's your favorite place for group study?
+  </div>
                 </div>
                 <div class="panel-body">
                     <ul class="list-group">
@@ -172,22 +181,27 @@ layout: base
                  <h6 class="text-center">"My Marketing study group likes to meet up to work on our group projects in <a href="#">Roberts</a>. The round tables are perfect for collaboration" - Emilio, Business</h6>
                 <br>
                 <br>
-                    <h6 class="text-center">Recommend a Study Space!</h6>
+                 <div class="card" style="width: 18rem;">
+  <div class="card-body">
+                  <div class="card-header text-center">
+    Recommend a Study Area!
+  </div>
+      <br>
                 <form class="form-horizontal" role="form">
   <div class="form-group">
     <label for="inputName3" class="col-sm-10 control-label">Your Name</label>
     <div class="col-sm-10">
-      <input type="name" class="form-control" id="inputname3" placeholder="Name...">
+      <input type="email" class="form-control" id="inputName3" placeholder="Name...">
     </div>
   </div>       
                     
   <div class="form-group">
-    <label for="inputmajor" class="col-sm-10 control-label">Your Major</label>
+    <label for="inputEmail3" class="col-sm-10 control-label">Your Email</label>
     <div class="col-sm-10">
-      <input type="email" class="form-control" id="inputmajor" placeholder="Major...">
+      <input type="password" class="form-control" id="inputEmail3" placeholder="Email...">
     </div>
   </div>
-                    <textarea class="form-control" rows="3">Tell us about your favorite space...</textarea>
+                    <textarea class="form-control" rows="3">Your Favorite Spot...</textarea>
                     <br>
                    
                     <button type="button" class="btn btn-primary col-sm-12">Send</button>
