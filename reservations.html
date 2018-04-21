@@ -4,22 +4,70 @@ title: Reservations
 ---
 
 
-    
+    <div class="row">
     <div class="container-fluid">
+        <div class="col">
     <main role="main">
   <h1 class="text-center">{{ page.title }}</h1>
         <br>
         <br>
         </main>
+            </div>
+    <br>
+ 
+        
+        <div class="col-md-8">
     
-    <section>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-3">
+<form>
+    <h1><p class= "text-center">Online Study Room Registration Form</p></h1>
+<p>For addtional information, please feel free to contact the university's library at (773) 555-1234 or email us at library@townsville.edu.</p>
+<form class="form-horizontal" action="/action_page.php">
+  <div class="form-group">
+    <label for="Name">Name</label>
+    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="name">
+  </div>
+  <div class="form-group">
+    <label for="location">Location Selection</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Main Library</option>
+      <option>English Department</option>
+      <option>Science Department</option>
+      <option>Math Department</option>
+      <option>Student Union</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Study Room Type</label>
+    <select multiple class="form-control" id="exampleFormControlSelect2">
+      <option>Study Lounge</option>
+      <option>Computer Lab</option>
+      <option>Collaboration Room</option>
+      <option>Individual Booth</option>
+      <option>Other</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Message/Note</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div>
+    <button type="submit" class="btn btn-default">Submit</button>
+</div>
+    
+    </form>
+        </form>
+        </div>
+        
+
+          <div class="col-md-4">
+             
+              <br>
+               <h4 class="text-center">Reservations Calendar</h4>
+        <p class="text-center">Check out the calendar to see existing reservations and availability</p>
     		<table class="table-condensed table-bordered table-striped text-center">
                 <thead>
                     <tr>
-                      <th colspan="7">
+                      <th colspan="9">
                         <span class="btn-group">
                             <a class="btn"><i class="icon-chevron-left"></i></a>
                         	<a class="btn active">June 2018</a>
@@ -85,52 +133,13 @@ title: Reservations
                     </tr>
                 </tbody>
             </table>
+</div>
         </div>
-	</div>
-</div>
-    </section>
-    
-        <div class="col-sm-6 col-md-6 col-lg-6">
-    <section>
-<form>
-    <h1><p class= "text-center">Online Study Room Registration Form</p></h1>
-<p>For addtional information, please feel free to contact the university's library at (773) 555-1234 or email us at library@townsville.edu.</p>
-<form class="form-horizontal" action="/action_page.php">
-  <div class="form-group">
-    <label for="Name">Name</label>
-    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="name">
-  </div>
-  <div class="form-group">
-    <label for="location">Location Selection</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>Main Library</option>
-      <option>English Department</option>
-      <option>Science Department</option>
-      <option>Math Department</option>
-      <option>Student Union</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect2">Study Room Type</label>
-    <select multiple class="form-control" id="exampleFormControlSelect2">
-      <option>Study Lounge</option>
-      <option>Computer Lab</option>
-      <option>Collaboration Room</option>
-      <option>Individual Booth</option>
-      <option>Other</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Message/Note</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-  <div>
-    <button type="submit" class="btn btn-default">Submit</button>
-</div>
-    </form>
-        </form>
-    </section>
+        </div>
+
         </div>
     </div>
+        
+</div>
 
 
