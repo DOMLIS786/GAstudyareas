@@ -119,7 +119,15 @@ layout: base
 				<br>
                 <article>
                     
-                    {% include studyarea_previews.html %}
+                    {% for studyarea in site.studyareas %}
+                    <div class="studyarea">
+                    <h2><a href="{{studyarea.url}}"><img src="{{ studyarea.image_path }}" alt="{{ studyarea.title }}"/>{{ studyarea.title }}</a></h2>
+                        
+                        {{ studyarea.content }}
+                        
+                    </div>
+                    
+                    {% endfor %}
                     
                 <img style="width:100%" src="https://yalealumnimagazine.com/uploads/images/8300083/1502920698/IMG_0532.jpg" alt="severance" class="rounded mx-auto d-block">
                 <br>
