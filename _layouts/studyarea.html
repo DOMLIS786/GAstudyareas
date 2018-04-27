@@ -2,13 +2,25 @@
 layout: base
 ---
 
-  
-article class="studyareas">
+    	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-3">
+<article class="studyareas">
+ 
+    
+<h1 class="text-center">{{ page.title }}</h1>
+ 
+    <img src="{{ page.image_path }}" class="img-responsive center-block" width="100%" alt="{{ page.title }}"/>
+    
+    <section>
+  <h4 class="text-center"><a href="/reservations.html">Reserve a Table</a></h4>
+    <h4 class="text-center"><a href="/livefeeds.html">Check the Live Feed</a></h4>
+        </section>
 
-  {% if page.picture %}
-    <img src="{{ page.picture }}" alt="Photo of {{ page.title | downcase }}">
-  {% endif %} 
-  
-<h1>{{ page.title }}</h1>
 {{content}}
+    
 </article>
+            </div>
+            </div>
+</div>
+       
