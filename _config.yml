@@ -1,6 +1,6 @@
 title: Study Rooms at Townsville University Library
 description:  Welcome to the Townsville University Study Rooms microsite! Search for and reserve a study room, find a study group, sign up for tutoring, and more!
-baseurl: /DOMLIS786/GAstudyareas
+baseurl: '/DOMLIS786/GAstudyareas'
 collections:
   studyareas:
     output: true
