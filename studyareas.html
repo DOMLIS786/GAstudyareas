@@ -117,56 +117,19 @@ layout: base
                   
               
 				<br>
-                <article>
+                <article class="studyareas">
                     
                     {% for studyarea in site.studyareas %}
                     <div class="studyarea">
-                    <h2><a href="{{studyarea.url}}"><img src="{{ studyarea.image_path }}" alt="{{ studyarea.title }}"/>{{ studyarea.title }}</a></h2>
+                    <h2 class="text-center"><a href="{{studyarea.url}}"><img src="{{ studyarea.image_path }}" width="100%" class="img-thumbnail" alt="{{ studyarea.title }}"/>{{ studyarea.title }}</a></h2>
                         
-                        {{ studyarea.content }}
                         
                     </div>
                     
                     {% endfor %}
                     
-                <img style="width:100%" src="https://yalealumnimagazine.com/uploads/images/8300083/1502920698/IMG_0532.jpg" alt="severance" class="rounded mx-auto d-block">
-                <br>
-                <p class="text-center"><a href="#">Severance Study Hall</a></p>
-                <br>
-                <img style="width:100%" src="https://greennewz.files.wordpress.com/2014/10/inside-the-central-library-courtesy-of-mimoa.jpg?w=1024" alt="commons" class="rounded mx-auto d-block">
-                <br>
-                <p class="text-center"><a href="#">The Commons</a></p>
-                <br>
-                <img style="width:100%" src="https://static1.squarespace.com/static/5978cca03e00be7250d83dfd/t/59b31f8b197aea58a8f858f6/1504911270866/_MG_0055.jpg" alt="cafe" class="rounded mx-auto d-block">
-                <br>
-                <p class="text-center"><a href="#">Turner Cafe</a></p>
-                <br>
-                <img style="width:100%" src="http://lh3.ggpht.com/-_Gv_jEXZGTc/UmemXtKlZ5I/AAAAAAAAY88/DIYfxwPNv28/10_thumb%25255B3%25255D.jpg?imgmax=800" alt="russell" class="rounded mx-auto d-block">
-                <br>
-                <p class="text-center"><a href="#">The Russell House</a></p>
-                <br>
-                <img style="width:100%" src="https://libraries.mit.edu/wp-content/uploads/2013/03/DSC5224.jpg" alt="library" class="rounded mx-auto d-block">
-                <br>
-                <p class="text-center"><a href="#">Library Main Floor</a></p>
-                <br>
-                <img style="width:100%" src="https://static1.squarespace.com/static/53120de0e4b0defc6743a307/t/54d02002e4b0b749e75208c7/1422925828183/" alt="library" class="rounded mx-auto d-block">
-                <br>
-                <p class="text-center"><a href="#">Library Second Floor</a></p>
-                <br>
-                <img style="width:100%" src="https://crimsonquintessence.files.wordpress.com/2015/07/242478693_5256b5a987.jpg?w=1024" alt="stacks" class="rounded mx-auto d-block">
-                <br>
-                <p class="text-center"><a href="#">The Stacks</a></p>
-                <br>
-                <img style="width:100%" src="http://blog.jasonoutlaw.com/wp-content/uploads/2009/12/cafedoma.jpg" alt="lodge" class="rounded mx-auto d-block">
-                <br>
-                <p class="text-center"><a href="#">The Lodge</a></p>
-                <br>
-                <img style="width:100%" src="https://api.hub.jhu.edu/factory/sites/default/files/styles/landscape/public/blc-magazine.jpg?itok=oVygQsBt" alt="roberts" class="rounded mx-auto d-block">
-                <br>
-                <p class="text-center"><a href="#">Roberts</a></p>
-                </article>
-                <div class="col-lg-6.25">
-     </div>
+                
+     
                 <br>
                 <br>
         

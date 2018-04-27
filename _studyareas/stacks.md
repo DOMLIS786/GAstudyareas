@@ -4,3 +4,6 @@ image_path: https://crimsonquintessence.files.wordpress.com/2015/07/242478693_52
 ---
 
 Welcome to The Stacks!
+
+<img src="{{ studyarea.image_path }}" class="img-thumbnail" alt="{{ studyarea.title }}"/>
+
