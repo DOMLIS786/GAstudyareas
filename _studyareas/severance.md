@@ -1,6 +1,6 @@
 ---
 title: Severance Study Hall
-layout: base
+layout: studyareas
 headline: Welcome to Severance Study Hall!
 picture: /severance-hall.jpg
 ---

@@ -1,6 +1,6 @@
 ---
 title: Russell House
-layout: base
+layout: studyareas
 headline: Welcome to Russell House!
 picture: /russell-house.jpg
 ---

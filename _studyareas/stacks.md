@@ -1,6 +1,6 @@
 ---
 title: The Stacks
-layout: base
+layout: studyareas
 headline: Welcome to The STacks!
 picture: /the-stacks.jpg
 ---

@@ -1,8 +1,8 @@
 ---
 title: Turner Cafe
-layout: base
+layout: studyareas
 headline: Welcome to Turner Cafe!
-picture: /turnercafe.jpg
+picture: /turner-cafe.jpg
 ---
 
 <article>
@@ -17,4 +17,4 @@ picture: /turnercafe.jpg
     {{ content }}
   </div>
   
-</article
+</article>

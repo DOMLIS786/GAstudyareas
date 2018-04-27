@@ -1,6 +1,6 @@
 ---
 title: Roberts
-layout: base
+layout: studyareas
 headline: Welcome to Roberts!
 picture: /robertsd.jpg
 ---

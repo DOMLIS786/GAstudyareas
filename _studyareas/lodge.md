@@ -1,6 +1,6 @@
 ---
 title: The Lodge
-layout: base
+layout: studyareas
 headline: Welcome to The Lodge!
 picture: /turnercafe.jpg
 ---

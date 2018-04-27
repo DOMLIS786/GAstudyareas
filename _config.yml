@@ -5,11 +5,6 @@ studyareas:
     output: true
     permalink: /studyareas/:name/
     
-  - scope:
-      path: ""
-      type: "studyareas"
-    values:
-      layout: base
       
 # Build settings
 markdown: kramdown
