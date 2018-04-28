@@ -96,6 +96,3 @@ image_path: http://blog.jasonoutlaw.com/wp-content/uploads/2009/12/cafedoma.jpg
 
   </div>
 
-
-</body>
-</html>
