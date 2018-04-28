@@ -15,7 +15,7 @@ image_path: https://api.hub.jhu.edu/factory/sites/default/files/styles/landscape
   </ul>
 </div>
 
-<div>
+<div class="column" style="background-color:#bbb;">
 <section>
 		  <center>
                <h4 class="text-center">Reservations Calendar</h4>
