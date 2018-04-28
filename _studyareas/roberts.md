@@ -86,6 +86,9 @@ image_path: https://api.hub.jhu.edu/factory/sites/default/files/styles/landscape
                         <td>30</td>
                         <td class="muted">1</td>
                         <td class="muted">2</td>
+		    </tr>
+                </tbody>
+            </table>    
 </center>			
 </section>
 
