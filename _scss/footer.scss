@@ -1,4 +1,4 @@
-footer {
+.footer {
   font-family: 'Didact Gothic';font-size: 14px;
   letter-spacing: 2px;
   margin-bottom: 0;
@@ -8,11 +8,11 @@ footer {
   padding: 15px 20px;
   }
 
-  footer a {
+  .footer a {
     color: #fff;
   }
 
-  footer a:hover {
+  .footer a:hover {
     color: #777;
     text-decoration: none;
   } 
