@@ -1,23 +1,27 @@
-site-footer {
-    font-family: 'Didact Gothic';font-size: 14px;
-    letter-spacing: 2px;
-    margin-bottom: 0;
-    border: 0;    
-    background-color: #0CB3C0;
+footer {
+  font-family: 'Didact Gothic';font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  border: 0;    
+  background-color: #0CB3C0;
+  color: #fff;
+  padding: 15px 20px;
+  }
+
+  footer a {
     color: #fff;
-    padding: 15px 20px;
   }
-  a {
-      color: #fff;
-  }
-  a:hover {
-      color: #777;
-      text-decoration: none;
+
+  footer a:hover {
+    color: #777;
+    text-decoration: none;
   } 
+
   .footernav {
-   font-size: 20px;
-   text-align: left;
+     font-size: 20px;
+     text-align: left;
 } 
+
   .address {
-  text-align: right;
+    text-align: right;
 }
