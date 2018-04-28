@@ -1,4 +1,4 @@
-.site-footer {
+.site-footer{
   font-family: 'Didact Gothic';
   letter-spacing: 2px;
   margin-bottom: 0;
@@ -8,21 +8,21 @@
   padding: 15px 20px;
 }
 
-  .footernav {
-     font-size: 20px;
-     text-align: left;
+.footernav{
+  font-size: 20px;
+  text-align: left;
 } 
 
-a {
-    color: #fff;
-  }
+a{
+  color: #fff;
+  text-decoration: none;
+}
 
-  a:hover {
-    color: #777;
-    text-decoration: none;
-  } 
+a:hover{
+  color: #777;
+} 
 
-  .address {
-    font-size: 14px;
-    text-align: right;
+.address{
+  font-size: 14px;
+  text-align: right;
 }
