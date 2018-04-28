@@ -95,4 +95,4 @@ image_path: https://static1.squarespace.com/static/5978cca03e00be7250d83dfd/t/59
 </section>
 
   </div>
-</div>
+
