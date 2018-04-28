@@ -1,27 +1,28 @@
 .footer {
-  font-family: 'Didact Gothic';font-size: 14px;
+  font-family: 'Didact Gothic';
   letter-spacing: 2px;
   margin-bottom: 0;
   border: 0;    
   background-color: #0CB3C0;
   color: #fff;
   padding: 15px 20px;
-  }
-
-  .footer a {
-    color: #fff;
-  }
-
-  .footer a:hover {
-    color: #777;
-    text-decoration: none;
-  } 
+}
 
   .footernav {
      font-size: 20px;
      text-align: left;
 } 
 
+a {
+    color: #fff;
+  }
+
+  a:hover {
+    color: #777;
+    text-decoration: none;
+  } 
+
   .address {
+    font-size: 14px;
     text-align: right;
 }
