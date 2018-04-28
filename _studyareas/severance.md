@@ -76,7 +76,7 @@ image_path: https://yalealumnimagazine.com/uploads/images/8300083/1502920698/IMG
                         <td class="btn-primary"><strong>20</strong></td>
                         <td>21</td>
                         <td>22</td>
-                        <td class="btn-primary"><strong>23<strong></td>
+                        <td>23</td>
                         <td>24</td>
                         <td>25</td>
                     </tr>
@@ -85,7 +85,7 @@ image_path: https://yalealumnimagazine.com/uploads/images/8300083/1502920698/IMG
                         <td>27</td>
                         <td class="btn-primary"><strong>28</strong></td>
                         <td>29</td>
-                        <td class="btn-primary"><strong>30</strong></td>
+                        <td>30</td>
                         <td class="muted">1</td>
                         <td class="muted">2</td>
               
