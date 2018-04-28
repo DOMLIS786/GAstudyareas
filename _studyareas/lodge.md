@@ -18,7 +18,7 @@ image_path: http://blog.jasonoutlaw.com/wp-content/uploads/2009/12/cafedoma.jpg
 
 <div>
 <section>
-		  <center>
+<center>
                <h4 class="text-center">Reservations Calendar</h4>
         <p class="text-center">Check out the calendar to see existing reservations and availability</p>
     		<table class="table-condensed table-bordered table-striped text-center">
