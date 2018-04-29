@@ -1,8 +1,8 @@
 ---
-layout: base
+layout: form
 title: Reservations
 ---
-
+{% include header.html %}
 
     <div class="row">
     <div class="container-fluid">
@@ -16,19 +16,17 @@ title: Reservations
             </div>
         </div>
 
-    <br>
-        
 <div class="container-fluid">
         <div class="row">
         <div class="col-md-8">
-    <section>
+    <section class="intro">
 <form>
-    <h1><p class= "text-center">Online Study Room Registration Form</p></h1>
-<p class="text-center">For addtional information, please feel free to contact the university's library at (773) 555-1234 or email us at <a href="mailto:library@townsville.edu">library@townsville.edu</a></p>
+    <h1>Reserve a Study Room</h1>
+<p>For addtional information, please feel free to contact the university's library at (773) 555-1234 or email us at <a href="mailto:library@townsville.edu">library@townsville.edu</a></p>
 <form class="form-horizontal" action="/action_page.php">
   <div class="form-group">
     <label for="Name">Name</label>
-    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="name">
+    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
   </div>
   <div class="form-group">
     <label for="location">Location Selection</label>
@@ -85,15 +83,15 @@ title: Reservations
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
   <div>
-    <button type="submit" class="btn btn-default">Submit</button>
+    <button type="submit" class="btn btn-bookroom">Submit</button>
 </div>
     <p class="text-center">Confirmation will be sent to your school email!</p>
     </form>
             </form>
         </section>
                 </div>
-    
-        
+
+
 
           <div class="col-sm-4">
           <section>
@@ -190,11 +188,4 @@ title: Reservations
         </div>
         </div>
 </div>
-
- 
-       
-      
-        
-
-
-
+ {% include footer.html %}
