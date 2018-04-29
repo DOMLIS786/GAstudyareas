@@ -17,11 +17,11 @@ title: Ask a Librarian
       <section class="container">
 <form>
 <div class="form-row">
-<div class="form-group">
+<div class="form-group col-md-6">
     <label for="fname">First name</label>
     <input type="text" class="form-control" id="fname" placeholder="First name">
   </div>
-  <div class="form-group">
+  <div class="form-group col-md-6">
     <label for="lname">Last name</label>
     <input type="text" class="form-control" id="lname" placeholder="Last name">
   </div>
@@ -54,8 +54,10 @@ title: Ask a Librarian
     <div class="form-group col-md-4">
       <label for="inputState">State</label>
       <select id="inputState" class="form-control">
-        <option selected>Choose...</option>
-        <option>...</option>
+        <option selected>Choose state</option>
+        <option>IL</option>
+        <option>IN</option>
+        <option>WI</option>
       </select>
     </div>
     <div class="form-group col-md-2">
@@ -63,15 +65,16 @@ title: Ask a Librarian
       <input type="text" class="form-control" id="inputZip">
     </div>
   </div>
-   <div class="form-group">
-   <label for="reference">Reference Question</label>
+   <div class="form-row">
+   <label for="reference">Type of Question</label>
     <select id="reference" name="referencequestion">
+      <option value="referencequestion">Reference Question</option>
       <option value="libraryservices">Library Services</option>
       <option value="events">Events</option>
       <option value="general">Genernal Information</option>
     </select>
   </div>
-  <div class="form-group">
+  <div class="form-row">
     <label for="message">Message</label>
     <textarea id="subject" name="subject"style="height:200px"></textarea>
   </div>
