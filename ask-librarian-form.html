@@ -5,22 +5,26 @@ title: Ask a Librarian
 {% include header.html %}
 
 <main class="content">
-  <article class="intro">
+      <main class="home">
 <h1>Ask a Librarian</h1>
+<article>
 <h2>Do you have a question and don't know the answer?</h2>
 <p> Please feel free to fill out this form and one of our librarians will respond to your question within 24 hours.</p> 
 <p>For addtional information, please feel free to contact the university's library at (773) 555-1234 or email us at library@townsville.edu</p>
-  </article>
-</main>
-<section class="container">
+</article>
+ </main>
+      </main>
+      <section class="container">
 <form>
+<div class="form-row">
 <div class="form-group">
     <label for="fname">First name</label>
     <input type="text" class="form-control" id="fname" placeholder="First name">
   </div>
   <div class="form-group">
-    <label for="lname">Last name 2</label>
+    <label for="lname">Last name</label>
     <input type="text" class="form-control" id="lname" placeholder="Last name">
+  </div>
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
@@ -32,13 +36,15 @@ title: Ask a Librarian
       <input type="phone" class="form-control" id="inputPhone" placeholder="Phone number">
     </div>
   </div>
-  <div class="form-group">
+  <div class="form-row">
+  <div class="form-group col-md-6">
     <label for="inputAddress">Address</label>
     <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
   </div>
-  <div class="form-group">
+  <div class="form-group col-md-6">
     <label for="inputAddress2">Address 2</label>
     <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
@@ -57,7 +63,7 @@ title: Ask a Librarian
       <input type="text" class="form-control" id="inputZip">
     </div>
   </div>
- <div class="form-row">
+   <div class="form-group">
    <label for="reference">Reference Question</label>
     <select id="reference" name="referencequestion">
       <option value="libraryservices">Library Services</option>
@@ -65,7 +71,7 @@ title: Ask a Librarian
       <option value="general">Genernal Information</option>
     </select>
   </div>
-  <div class="form-row">
+  <div class="form-group">
     <label for="message">Message</label>
     <textarea id="subject" name="subject"style="height:200px"></textarea>
   </div>
@@ -73,12 +79,14 @@ title: Ask a Librarian
     <div class="form-check">
       <input class="form-check-input" type="checkbox" id="gridCheck">
       <label class="form-check-label" for="gridCheck">
-        Send a text to the phone number above
+        Send my answer by text to the phone number above
       </label>
     </div>
   </div>
   <button type="submit" class="btn btn-bookroom">Submit</button>
   <br>
+  <br>
 </form>
 </section>
+     
 {% include footer.html %}
